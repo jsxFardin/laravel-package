@@ -14,5 +14,12 @@
         "psr-4": {
             "Fardin\\Contact\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fardin\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
 }
