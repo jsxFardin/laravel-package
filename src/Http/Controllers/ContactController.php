@@ -21,4 +21,9 @@ class ContactController extends Controller
 
         return redirect(url('contact'));
     }
+
+    public function show($id) {
+
+        return Contact::find($id);
+    }
 }
